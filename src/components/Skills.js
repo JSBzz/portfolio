@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SkillsContainer = styled.section`
-  padding: 2rem 2rem;
+  margin-top: 2rem;
+  border-radius: 15px;
+  padding: 1rem 2rem 3rem 2rem;
   background-color: #fff;
 `;
 

@@ -7,6 +7,9 @@ const Card = styled.div`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 2rem;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px; /* Added min-height */
 
   &:hover {
     transform: translateY(-5px);
@@ -28,6 +31,12 @@ const ProjectDescription = styled.p`
   font-style: italic;
 `;
 
+const ProjectDuration = styled.p`
+  font-size: 1rem;
+  color: #7f8c8d;
+  font-style: italic;
+`;
+
 const FeaturesList = styled.ul`
   padding-left: 20px;
   margin-bottom: 1.5rem;
@@ -46,11 +55,14 @@ const TechStackWrapper = styled.div`
   gap: 0.5rem;
   border-top: 1px solid #eee;
   padding-top: 1.5rem;
+  margin-top: auto;
+  min-height: 5rem; /* Added min-height to accommodate two lines */
 `;
 
 const TechBadge = styled.span`
   background-color: #f3f3f3;
   color: #555;
+  max-height: 20px;
   padding: 0.3rem 0.8rem;
   border-radius: 5px;
   font-size: 0.8rem;
@@ -60,6 +72,7 @@ const ProjectCard = ({ project }) => {
   return (
     <Card>
       <ProjectTitle>{project.title}</ProjectTitle>
+      <ProjectDuration>{project.duration}</ProjectDuration>
       <ProjectDescription>{project.description}</ProjectDescription>
       <FeaturesList>
         {project.features.map((feature, index) => (
