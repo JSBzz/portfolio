@@ -25,6 +25,7 @@ const ProjectsGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  grid-auto-rows: 1fr; /* Ensure all rows have equal height */
 
   @media (min-width: 992px) {
     grid-template-columns: repeat(2, 1fr);
@@ -38,7 +39,7 @@ function App() {
       <MainContainer>
         <Skills skills={portfolioData.skills} />
         <ProjectsSection>
-          <SectionTitle>Projects</SectionTitle>
+          <SectionTitle>수행 프로젝트</SectionTitle>
           <ProjectsGrid>
             {portfolioData.projects.map((project, index) => (
               <ProjectCard key={index} project={project} />

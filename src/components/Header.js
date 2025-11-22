@@ -25,7 +25,7 @@ const Summary = styled.p`
 const Header = ({ summary }) => {
   return (
     <HeaderContainer>
-      <Title>Developer Portfolio</Title>
+      <Title>백엔드 개발자 주성빈입니다.</Title>
       <Summary>{summary}</Summary>
     </HeaderContainer>
   );
