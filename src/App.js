@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import ProjectCard from './components/ProjectCard';
+import Footer from './components/Footer';
 import { portfolioData } from './data';
 
 const MainContainer = styled.main`
@@ -47,6 +48,7 @@ function App() {
           </ProjectsGrid>
         </ProjectsSection>
       </MainContainer>
+      <Footer />
     </>
   );
 }
