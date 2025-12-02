@@ -1,5 +1,5 @@
 export const portfolioData = {
-  summary: `주로 백엔드 개발을 담당하며 Node.js와 Java(Spring)를 다루는 3년차 서버 개발자입니다. ASO 분석 플랫폼, OP.GG 게임센터, B2B 물류 시스템 등 다양한 프로젝트를 통해 서버 아키텍처 설계부터 API 개발, 성능 최적화까지 경험했습니다. 일부 프로젝트에서는 React 기반의 프론트엔드 개발에도 참여하며 풀스택 역량을 길렀습니다. 새로운 기술 학습에 열려 있으며, 안정적인 백엔드 개발 역량을 기반으로 프론트엔드 및 다양한 기술 영역으로 경험을 확장해 나가는 것을 목표로 하고 있습니다.`,
+  summary: `주로 백엔드 개발을 담당하며 Node.js와 Java를 다루는 3년차 서버 개발자입니다. ASO 분석 플랫폼, OP.GG 게임센터, B2B 물류 시스템 등 다양한 프로젝트를 통해 서버 아키텍처 설계부터 API 개발, 성능 최적화까지 경험했습니다. 일부 프로젝트에서는 React 기반의 프론트엔드 개발에도 참여하며 풀스택 역량을 길렀습니다. 새로운 기술 학습에 열려 있으며, 안정적인 백엔드 개발 역량을 기반으로 프론트엔드 및 다양한 기술 영역으로 경험을 확장해 나가는 것을 목표로 하고 있습니다.`,
   skills: [
     'Java', 'JavaScript (ES6+)', 'Spring Boot', 'Spring MVC', 'Python', 'MyBatis', 
     'Node.js', 'Express.js', 'Koa.js', 'MySQL/MariaDB', 'MongoDB', 'Redis', 
